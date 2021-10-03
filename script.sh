@@ -1,0 +1,1 @@
+curl -H "Authorization: Bearer TOKEN" https://www.googleapis.com/drive/v3/files/FILE_ID?alt=media -o FILENAME 
