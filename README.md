@@ -8,7 +8,7 @@ This script is for downloading files from google drive via cli
 
 https://developers.google.com/oauthplayground/
 
-select https://www.googleapis.com/auth/drive.readonly under 
+select https://www.googleapis.com/auth/drive.readonly under "Drive API v3" in select the scoope
 
 <img src="https://github.com/JohnStyleZ/curlGdrive/blob/main/images/apiLink.png?raw=true" width="500">
 
