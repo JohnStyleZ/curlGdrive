@@ -1,6 +1,6 @@
 # curlGdrive
 
-This script is for downloading files from google drive via cli
+Script for Downloading google Drive files! 
 
 ## Instruction
 
@@ -38,7 +38,7 @@ run the follwing commands
 ```
 clone the repositories
 ```bash
-  git clone https://github.com/JohnStyleZ/curlGdrive.git && cd curlGdrive && chmod +x &&  script.sh sed -i -e 's/\r$//' script.sh && nano script.sh
+  git clone https://github.com/JohnStyleZ/curlGdrive.git && cd curlGdrive && chmod +x script.sh && sed -i -e 's/\r$//' script.sh && nano script.sh
 ```
 the nano text editor will open, in the link 40 edit the YourToken to your Authorization: Bearer credentials once you did it! press Ctrl+x then Y and Enter! 
 done! 
