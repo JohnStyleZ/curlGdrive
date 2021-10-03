@@ -8,7 +8,7 @@ This script is for downloading files from google drive via cli
 
 https://developers.google.com/oauthplayground/
 
-select https://www.googleapis.com/auth/drive.readonly under 
+select https://www.googleapis.com/auth/drive.readonly under "Drive API v3" in select the scoope
 
 <img src="https://github.com/JohnStyleZ/curlGdrive/blob/main/images/apiLink.png?raw=true" width="500">
 
@@ -16,8 +16,25 @@ select https://www.googleapis.com/auth/drive.readonly under
 
 <img src="https://github.com/JohnStyleZ/curlGdrive/blob/main/images/accessToken.png?raw=true" width="500">
 
+## Easy usage using bash script
+clone the repositories its requires git clone 
+```bash
+  sudo apt-get install git
+```
+clone the repositories
+```bash
+  git clone https://github.com/JohnStyleZ/curlGdrive.git
+```
+now 
+$ cd curlGdrive 
+```bash
+  chmod +x script.sh
+  ./scrip.sh
+```
+fill the inputs as it is required!
 
-## Deployment
+
+## Manually usage
 
 Replace the following with yours.
 
