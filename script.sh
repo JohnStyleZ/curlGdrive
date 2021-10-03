@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/bin/bash
 # The MIT License (MIT)
 # 
@@ -38,3 +39,6 @@ read -p "Enter your file/url ID: " id
 read -p "Enter yuor file name including file extension: " output
 curl -H "Authorization: Bearer #YourToken" https://www.googleapis.com/drive/v3/files/$id?alt=media -o $output
 echo "Your $output has been downloaded successfully"
+=======
+curl -H "Authorization: Bearer TOKEN" https://www.googleapis.com/drive/v3/files/FILE_ID?alt=media -o FILENAME 
+>>>>>>> parent of 562e79f... Merge pull request #1 from gyke69/patch-1
