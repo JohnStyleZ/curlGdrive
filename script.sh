@@ -36,7 +36,7 @@ VERSION="1.0.0"
 # You can add more options by following the gdrive api rules!
 read -p "Enter your access token: " token
 read -p "Enter your google drive file url: " url
-id = $(echo "$url" | cut -d / -f6)
+id= $(echo "$url" | cut -d / -f6)
 read -p "Enter yuor file name including file extension: " output
 curl -H "Authorization: Bearer $token" https://www.googleapis.com/drive/v3/files/$id?alt=media -o $output
 echo "Your $output has been downloaded successfully"
